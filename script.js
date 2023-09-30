@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-
+var ip = ""
 fetch('https://api.ipify.org?format=json')
   .then(response => response.json())
   .then(data => var ip = data.ip);      
